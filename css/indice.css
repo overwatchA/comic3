@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1320px;
+}
+}
+
+body{
+    position: relative;
+}
+
+
+
+.introduccion-iconos{
+    width: 3rem;
+    margin-right: 1rem;
+    margin-bottom: .8rem;
+}
+
+.img-btns{
+    width: 20%;
+    cursor: pointer;
+}
+
+.modalContainer{
+    margin: .5rem 2rem 2rem 2rem;
+}
+
+.modal {
+    --bs-modal-width: 50% !important;
+}
+
+
+
+
+.div-flecha{
+    width: 15%;
+    position: absolute;
+    bottom: 18%;
+    right: 18%;
+    animation: arrow .8s linear infinite;
+}
+
+#arrow{
+    width: 100%;
+}
+
+@keyframes arrow{
+    0%{
+        top: 15%;
+        right: 60%;
+    }
+
+    50%{
+        top: 13%;
+        right: 58%;
+    }
+
+    100%{
+        top: 15%;
+        right: 60%;
+    }
+}
+
+
+
+
+
+h1{
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #6f86a9;
+    
+}
+
+.section-indice{
+    max-width: 1400px;
+    
+}
+
+
+.indice{
+    width: 100%;
+    ;
+    padding: 0 15rem ;
+    position: relative;
+}
+
+.reglas{
+    display: flex;
+    position: absolute;
+    top: 5%;
+    right: 0px;
+    flex-direction: flex-end;
+    height: 70vh;
+}
+
+
+.indice > h1{
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+
+
+.capitulos{
+    gap: 8rem;
+}
+
+.img-cap{
+    width: 90%;
+    margin-bottom: 17%;
+    opacity: 85%;
+}
+
+.img-cap:hover{
+    opacity: 100%;
+}
+
+
+
+.btn-cap{
+    padding: .6rem 2.3rem;
+    background-color: #88C546;
+    color: white;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.btn-cap:hover{
+    background-color: #83be44;
+}
